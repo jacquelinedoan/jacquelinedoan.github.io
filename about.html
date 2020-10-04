@@ -1,10 +1,63 @@
-<!DOCTYPE html>
+</<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>About Me</title>
+    <title>About</title>
+    <!-- fonts go here -->
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h2> About me.... coming soon </h2>
+    <div class="container">
+            <!-- NAVBAR-->
+            <div class="nav-wrapper" id="myHeader">
+                <div class="leftside">
+                      <div class="nav-link-wrapper">
+                          <a href="index.html">Home</a>
+                      </div>
+                      <div class="nav-link-wrapper">
+                          <a href="CVweb.pdf">CV</a>
+                      </div>
+                      <div class="nav-link-wrapper">
+                          <a href="about.html">About</a>
+                      </div>
+                </div>
+              <div class="rightside">
+                      <div class="brand">
+                        <div> </div>
+                      </div>
+              </div>
+            </div>
+            <!-- CONTENT -->
+            <div class="content-wrapper" >
+              <div class="name"> <span class="highlightme"> About Me </span> </div>
+              <div class="subtitles">
+                <p>When I am not doing Math, I am an illustrator, photographer, graphic designer, and a seasonal math blogger.
+                I believe that my creative projects help sharpen my critical thinking skills and overall enhance my performance as an applied mathematician.
+                I wish to showcase this side of me on this page, and I hope my work brings you joy. </p>
+             </div>
+               <div class="profile-wrapper">
+
+            </div>
+  </div>
+
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+
+
   </body>
 </html>
