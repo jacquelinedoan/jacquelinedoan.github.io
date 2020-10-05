@@ -4,9 +4,11 @@ body{
 }
 
 .highlightme {background-color: LemonChiffon;}
+
 .container{
   display: grid;
   grid-template-columns: 1fr;
+  background-color: Beige;
 }
 
 .sticky {
@@ -20,7 +22,7 @@ body{
 }
 
 a:link{
-     color: LemonChiffon;
+     color: PaleVioletRed;
      text-decoration: none;
 }
 
@@ -103,7 +105,8 @@ a:visited{
   margin-right: auto;
   margin-bottom: 50px;
   margin-top: 50px;
-}
+  }
+
 
 .title{
   margin-top: 50px;
