@@ -2,6 +2,10 @@
 body{
   margin: 0px;
 }
+.responsive{
+  width: 70%;
+  height: auto;
+}
 
 .highlightme {background-color: LemonChiffon;}
 
@@ -90,9 +94,10 @@ a:visited{
   margin-top: 50px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   color: teal;
   font-weight: bold;
+  /* text-transform: uppercase; */
 }
 
 /* .profile-wrapper{
@@ -122,6 +127,11 @@ a:visited{
   margin-right: auto;
   font-size: 1.2em;
   color: black;
+}
+.subtitles p{
+  text-align: center;
+  border: 2px solid Teal;
+  padding: 30px;
 }
 
 .container > .content-wrapper > .profile-wrapper > .subtitles a:link{
@@ -203,30 +213,35 @@ tr:hover{
 /* ABOUT ME */
 
 .aboutprofile{
-  display: flex;
-  padding: 30px;
-}
-
-.rightside > p {
-  padding: 30px;
-  font-size: 1.2em;
-}
-
-.rightside{
   display: grid;
   grid-template-columns: 1fr;
+  padding: 30px;
 }
 
-.rightside > table {
+.aboutimg{
+  width: 100%;
+  height: auto;
+}
+
+.aboutprofile > p {
+  text-align: center;
+  padding: 30px;
+  font-size: 1.2em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid Teal;
+}
+
+.aboutprofile > table {
   background-color: PowderBlue;
   padding: 30px;
 }
 
-.rightside > table tr:hover{
+.aboutprofile > table tr:hover{
   text-decoration: line-through;
 }
 
-.rightside > h1{
+.aboutprofile > h1{
   text-decoration: underline;
 }
 
@@ -235,4 +250,26 @@ h1{
   color: Teal;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+/*portfolio*/
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col1 img{
+  width: 100%;
+  height: auto;
+}
+
+.col2 img{
+  width: 100%;
+  height: auto;
+}
+
+
+.col3 img{
+  width: 100%;
+  height: auto;
 }
