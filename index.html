@@ -8,7 +8,35 @@ Go easy on me. -->
     <!-- fonts go here -->
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /* height: 300px; /* Should be removed. Only for demonstration */ */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
   </head>
   <body>
     <div class="container">
@@ -25,121 +53,48 @@ Go easy on me. -->
                           <a href="about.html">About</a>
                       </div>
                 </div>
-              <!-- <div class="rightside">
-                      <div class="brand">
-                        <div> JACQUELINE DOAN </div>
-                      </div>
-              </div> -->
             </div>
             <!-- CONTENT -->
             <div class="content-wrapper" >
 
                <div class="profile-wrapper">
-                 <div class="name">
-                   <span class="highlightme"> Bao Jacqueline Doan </span>
-                 </div>
-                <div class="profile-img">
-                <img src="images/profile3.jpeg" alt="My face." class="responsive">
-                </div>
-                <div class="subtitles">
-                  <p> My name is Jacqueline Doan, and I am a fourth-year student working towards an <span class="highlightme">Honours Specialization B.Sc. in Mathematical and Statistical Sciences </span> at Western University. My honours thesis is supervised by <a href="https://www.mullerlab.ca">Professor Lyle Muller</a>.
-                  My research interests are <span class="highlightme">network theory </span> and its applications, <span class="highlightme">spectral theory </span>, and <span class="highlightme">differential equations</span>. My current research is on the eigenspectra of the complete graph subjected to patterned edge removal. </p>
-                  <p>For more information on my experiences, please refer to the CV tab. If you have additional questions, my email is <a href="mailto:ndoan6@uwo.ca">ndoan6@uwo.ca</a>. </p>
-               </div>
+                 <div class="name"> <span style="font-size: 2em; font-family: Abril Fatface"> Bao Jacqueline Doan </span>  <span style="font-size: 1em"  > / applied mathematician in training </span> </div>
+
+                 <div class="row">
+                           <div class="column" style="background-color:#F8F8FF;">
+
+                             <div class="profile-img">
+                             <img src="images/welcome.jpeg" alt="My face." class="responsive">
+                             </div>
+
+                           </div>
+
+                           <div class="column" style="background-color:#F8F8FF;">
+                             <div class="greet">  hello  </div>
+                             <div class="button-wrapper">
+                               <form> <button class="button-style" formaction="CVweb.pdf"> cv </button> <button class="button-style" formaction="about.html"> about </button> </form>
+                              </div>
+                             <div class="subtitles">
+                             <p>I am a fourth-year student working towards an <span class="highlightme">Honours Specialization B.Sc. in Mathematical and Statistical Sciences </span> at Western University. My honours thesis is supervised by <a href="https://www.mullerlab.ca">Professor Lyle Muller</a>. </p>
+                             <p>My research interests are <span class="highlightme">network theory </span> and its applications, <span class="highlightme">spectral theory </span>, and <span class="highlightme">differential equations</span>. My current research is on the eigenspectra of the complete graph subjected to patterned edge removal. </p>
+                             <p>If you have additional questions, my email is <a href="mailto:ndoan6@uwo.ca">ndoan6@uwo.ca</a>. </p>
+                           </div>
+                          </div>
+
               </div>
 
-              <div class="cvsum-wrapper">
-                  <div class="title"> Research Experience </div>
-                    <div class"experiences">
-                        <table class="center">
-                              <tr>
-                              <td>2020</td>
-                              <td> NSERC - Undergraduate Student Research Awards : Supervised by Lyle Muller </td>
-                              </tr>
-                              <tr>
-                              <td>2019</td>
-                              <td> NSERC- Undergraduate Student Research Awards : Supervised by Lindi Wahl</td>
-                            </tr>
-                          </table>
-                        </div>
-                  <div class="title"> Teaching Experience </div>
-                  <div class="experiences">
-                      <table class="center" >
-                        <tr>
-                        <td> 2020 </td> <td> Calculus 1500 - Calculus I for the Mathematical Sciences : Teaching Assistant </td>
-                        </tr>
-                        <tr>
-                        <td> 2019 </td> <td> Complex Variables: The Cauchy's Integral Formula and Its Consequences</td>
-                        </tr>
-                        <tr>
-                        <td> 2019 </td> <td> Math Club at Western Outreach Event: High School Night </td>
-                        </tr>
-                        <tr>
-                        <td> 2018-2019 </td> <td> Mathnasium - The Math Learning Centre: High School Instructor </td>
-                        </tr>
-                      </table>
-                  </div>
-                  <div class="title"> Awards </div>
-                  <div class="experiences">
-                    <table class="center" >
-                      <tr>
-                      <td> 2019,2020 </td> <td> NSERC - Undergraduate Student Research Award </td>
-                      </tr>
-                      <tr>
-                      <td> 2018,2019,2020 </td> <td> Dean's Honour List</td>
-                      </tr>
-                      <tr>
-                      <td> 2017 </td> <td> Western Entrance Scholarship of Excellence </td>
-                      </tr>
-                      <tr>
-                      <td> 2017 </td> <td> Junior Achievement: Award of Execellence, Vice President of Marketing of The Year </td>
-                      </tr>
-                      <tr>
-                      <td> 2016 </td> <td> CEMC - Hypatia Mathematics Contest: School Champion </td>
-                      </tr>
-                    </table>
-                  </div>
-                  <div class="title"> Extra-Curriculars </div>
-                  <div class="experiences">
-                    <table class="center" >
-                      <tr>
-                      <td> 2020 </td> <td> Canadian Undergraduate Mathematics Conference: Speaker [<a href="CUMC2020.pdf"> Slides </a>] </td>
-                      </tr>
-                      <tr>
-                      <td> 2020 </td> <td> The Interdisciplinary Contest in Modeling: Contestant [ <a href="ICM.pdf"> Report </a>]</td>
-                      </tr>
-                      <tr>
-                      <td> 2018-2019 </td> <td> Math Club at Western: President </td>
-                      </tr>
-                      <tr>
-                      <td> 2019 </td> <td> Science Rendezvous: Volunteer </td>
-                      </tr>
-                      <td> 2018-2019 </td> <td> Undergraduate Society of Applied Mathematics: Communications Officer </td>
-                      </tr>
-                      <tr>
-                      <td> 2019 </td> <td> SheHacks III at Western: Delegate </td>
-                      </tr>
-                      <tr>
-                      <td> 2017-2018 </td> <td> Faculty of Information and Media Studies Student Council : Graphic Designer </td>
-                      </tr>
-                      <tr>
-                      <td> 2017 </td> <td> The Grand Theatre: Photographer </td>
-                      </tr>
-                    </table>
-                  </div>
-              </div>
+
           </div>
           <!-- FOOTER -->
           <div class="footer-wrapper">
-          <img src="images/backgroundmath2.jpg" alt="room.">
-          <div class="overlay">
-            <div class="footer-text">
-                <p> Please feel free to reach out to me at <a href="mailto:ndoan6@uwo.ca">ndoan6@uwo.ca</a> if you have any questions. </p>
-            </div>
-          </div>
-
-
+          <!-- <img src="images/backgroundmath2.jpg" alt="room.">
+          <div class="overlay"> -->
+            <!-- <div class="footer-text">
+                <p>  </p>
+            </div> -->
+          <!-- </div> -->
         </div>
+
   </div>
 
 <script>
