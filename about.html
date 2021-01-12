@@ -7,8 +7,35 @@
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
   </head>
+  <style>
+* {
+box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+/* height: 300px; /* Should be removed. Only for demonstration */ */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  width: 100%;
+}
+}
+</style>
   <body>
     <div class="container">
             <!-- NAVBAR-->
@@ -23,6 +50,9 @@
                       <div class="nav-link-wrapper">
                           <a href="about.html">About</a>
                       </div>
+                      <div class="nav-link-wrapper">
+                          <a href="blog.html">blog</a>
+                      </div>
                 </div>
               <div class="rightside">
                       <div class="brand">
@@ -33,6 +63,25 @@
             <!-- CONTENT -->
             <div class="content-wrapper" >
               <div class="name"> <span style="font-size: 3.5em; font-family: Abril Fatface"> About Me </span> </div>
+              <div class="row">
+
+                        <div class="column" style="background-color:#F8F8FF;">
+                          <div class="subtitles">
+                          <p> I first became fastinated with mathematics when I was in a first-year introductory calculus class. I was a media studies student at the time,
+                            so it was a big change for me. I was able to find ways to integrate (hah!) my creative side and my busy schedule as a mathematics student. In my free time,
+                          I am an illustrator, a painter, and a graphic designer. One of my goals as a future academic is to ultilize my design background in order to make mathematics accessible and interesting. </p>
+                        </div>
+                       </div>
+                       <div class="column" style="background-color:#F8F8FF;">
+
+                         <div class="aboutimg">
+                         <img src="images/about.png" alt="My leg." class="responsive">
+                         </div>
+
+                       </div>
+
+           </div>
+
                <!-- <div class="aboutprofile">
                 <p> I first became fastinated with math when I was in my first year at Western University, so I switched my major from media studies to applied math, as I saw the power in applications of math in everyday life.  When I'm not doing math, I am an illustrator, a graphic designer, and a photographer. </p>
              </div> -->

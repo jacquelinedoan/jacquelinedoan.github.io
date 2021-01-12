@@ -244,9 +244,12 @@ tr:hover{
 .aboutprofile{
 }
 
+
 .aboutimg{
-  width: 100%;
-  height: auto;
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: 30%;
 }
 
 .aboutprofile > p {
