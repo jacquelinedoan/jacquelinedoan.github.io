@@ -1,14 +1,16 @@
-</<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<!-- Hello, fancy seeing you here. Before you look at my codes, keep in mind that I learned HTML and CSS in a day and put this website together right after.
-Go easy on me. -->
+<!-- Hello, fancy seeing you here. I wrote these codes from scratch, and I am far from a web developer. So please go easy on me! -->
   <head>
-    <meta  harset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Jacqueline Doan</title>
     <!-- fonts go here -->
     <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
 * {
@@ -20,7 +22,7 @@ Go easy on me. -->
   float: left;
   width: 50%;
   padding: 10px;
-  /* height: 300px; /* Should be removed. Only for demonstration */ */
+  /* height: 300px; /* Should be removed. Only for demonstration */ 
 }
 
 /* Clear floats after the columns */
@@ -44,61 +46,62 @@ Go easy on me. -->
             <div class="nav-wrapper" id="navbar">
                 <div class="leftside">
                       <div class="nav-link-wrapper">
-                          <a href="index.html">Home</a>
+                          <a href="index.html">home </a>
                       </div>
                       <div class="nav-link-wrapper">
                           <a href="CVweb.pdf">CV</a>
                       </div>
                       <div class="nav-link-wrapper">
-                          <a href="about.html">About</a>
+                          <a href="about.html">about</a>
                       </div>
                       <div class="nav-link-wrapper">
-                          <a href="blog.html">Blog</a>
-                      </div>
+                        <a href="contact.html">contact</a>
+                    </div>
                 </div>
+                <div class="rightside">
+                    <div class="name">  Jacqueline Doan &#x1F33F;</div>
+              </div>
             </div>
             <!-- CONTENT -->
             <div class="content-wrapper" >
 
                <div class="profile-wrapper">
-                 <div class="name"> <span style="font-size: 2em; font-family: Abril Fatface"> Bao Jacqueline Doan </span>  <span style="font-size: 1em"  > / applied mathematician in training </span> </div>
+                 <div class="greet">  I'm glad you are here &#x1F973; </div>
+                 <div class="sub"> My name is Jacqueline and I am a fourth-year student working towards an <span class="highlightme">Honours Specialization B.Sc. in Mathematical and Statistical Sciences </span> at Western University. My honours thesis is supervised by <a href="https://www.mullerlab.ca">Professor Lyle Muller</a>. 
+                  My research interests are <span class="highlightme">network theory </span> and its applications, <span class="highlightme">spectral theory </span>, and <span class="highlightme">differential equations</span>. My current research is on the eigenspectra of the complete graph subjected to patterned edge removal. </div>
+                 <!-- <div class="button-wrapper">
+                    <form> <button class="button-style" formaction="CVweb.pdf"> cv </button> 
+                           <button class="button-style" formaction="about.html"> about </button> 
+                           <button class="button-style" formaction="about.html"> about </button> 
+                        </form>
+                </div> -->
+                 <!-- <div class="name"> Bao Jacqueline Doan &#x1F33F; </div>
+                 <div class="sub"> applied mathematician in training </div> -->
+                 <!-- <div class="row">
+                           <div class="column">
 
-                 <div class="row">
-                           <div class="column" style="background-color:#F8F8FF;">
-
-                             <div class="profile-img">
-                             <img src="images/welcome.jpeg" alt="My face." class="responsive">
-                             </div>
-
+                                <div class="profile-img">
+                                    <img src="images/welcome.jpeg" alt="My face." class="responsive">
+                                </div>
                            </div>
+                           <div class="column">
+                               
+                                <div class="button-wrapper">
+                                        <form> <button class="button-style" formaction="CVweb.pdf"> cv </button> <button class="button-style" formaction="about.html"> about </button> </form>
+                                </div>
+                                <div class="subtitles">
+                                        <p>I am a fourth-year student working towards an <span class="highlightme">Honours Specialization B.Sc. in Mathematical and Statistical Sciences </span> at Western University. My honours thesis is supervised by <a href="https://www.mullerlab.ca">Professor Lyle Muller</a>. </p>
+                                        <p>My research interests are <span class="highlightme">network theory </span> and its applications, <span class="highlightme">spectral theory </span>, and <span class="highlightme">differential equations</span>. My current research is on the eigenspectra of the complete graph subjected to patterned edge removal. </p>
+                                        <p>If you have additional questions, my email is <a href="mailto:ndoan6@uwo.ca">ndoan6@uwo.ca</a>. </p>
+                                </div>
+                            </div>
 
-                           <div class="column" style="background-color:#F8F8FF;">
-                             <div class="greet">  hello  </div>
-                             <div class="button-wrapper">
-                               <form> <button class="button-style" formaction="CVweb.pdf"> cv </button> <button class="button-style" formaction="about.html"> about </button> </form>
-                              </div>
-                             <div class="subtitles">
-                             <p>I am a fourth-year student working towards an <span class="highlightme">Honours Specialization B.Sc. in Mathematical and Statistical Sciences </span> at Western University. My honours thesis is supervised by <a href="https://www.mullerlab.ca">Professor Lyle Muller</a>. </p>
-                             <p>My research interests are <span class="highlightme">network theory </span> and its applications, <span class="highlightme">spectral theory </span>, and <span class="highlightme">differential equations</span>. My current research is on the eigenspectra of the complete graph subjected to patterned edge removal. </p>
-                             <p>If you have additional questions, my email is <a href="mailto:ndoan6@uwo.ca">ndoan6@uwo.ca</a>. </p>
-                           </div>
-                          </div>
-
-              </div>
+                    </div> -->
 
 
-          </div>
-          <!-- FOOTER -->
-          <div class="footer-wrapper">
-          <!-- <img src="images/backgroundmath2.jpg" alt="room.">
-          <div class="overlay"> -->
-            <!-- <div class="footer-text">
-                <p>  </p>
-            </div> -->
-          <!-- </div> -->
-        </div>
-
-  </div>
+                </div>
+            </div>
+   </div>
 
 <script>
 

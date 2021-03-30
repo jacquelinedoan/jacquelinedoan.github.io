@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Hello, fancy seeing you here. I wrote these codes from scratch, and I am far from a web developer. So please go easy on me! -->
+  <head>
+    <meta  charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jacqueline Doan</title>
+    <!-- fonts go here -->
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /* height: 300px; /* Should be removed. Only for demonstration */ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="container">
+            <!-- NAVBAR-->
+            <div class="nav-wrapper" id="navbar">
+                <div class="leftside">
+                      <div class="nav-link-wrapper">
+                          <a href="index.html">home </a>
+                      </div>
+                      <div class="nav-link-wrapper">
+                          <a href="CVweb.pdf">CV</a>
+                      </div>
+                      <div class="nav-link-wrapper">
+                          <a href="about.html">about</a>
+                      </div>
+                      <div class="nav-link-wrapper">
+                        <a href="contact.html">contact</a>
+                    </div>
+                </div>
+                <div class="rightside">
+                    <div class="name">  Jacqueline Doan &#x1F33F;</div>
+              </div>
+            </div>
+            <!-- CONTENT -->
+            <div class="content-wrapper" >
+
+               <div class="profile-wrapper">
+                 <div class="greet">  questions? </div>
+                 <div class="sub"> 
+                   Shoot me an email! My email is ndoan6 at uwo dot ca
+                 </div>
+                </div>
+            </div>
+   </div>
+
+<script>
+
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("navbar");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+
+  </body>
+</html>
